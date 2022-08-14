@@ -1,13 +1,10 @@
 $(document).ready(function () {
   loadItems();
-
   clearAll();
-
   addDollar();
   addQuarter();
   addDime();
   addNickel();
-
   returnChange();
   vendItem();
   let amount;
